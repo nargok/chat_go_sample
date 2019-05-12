@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func NewTest(t *testing.T) {
+func TestNew(t *testing.T) {
 	var buf bytes.Buffer
 	tracer := New(&buf)
 	if tracer == nil {
